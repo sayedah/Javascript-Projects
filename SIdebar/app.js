@@ -4,8 +4,7 @@ const sidebar = document.querySelector(".sidebar");
 
 
 toggleBtn.addEventListener("click", function() {
-    console.log(sidebar.classList); 
-    console.log("hello"); 
+
     // if (sidebar.classList.contains("show-sidebar")) {
     //     sidebar.classList.remove("show-sidebar");
     // }
@@ -14,10 +13,8 @@ toggleBtn.addEventListener("click", function() {
     // }
 
     sidebar.classList.toggle("show-sidebar"); 
-    console.log(sidebar.classList); 
 });
 
 closeBtn.addEventListener("click", function() {
     sidebar.classList.remove("show-sidebar"); 
-    console.log(closeBtn.classList); 
 });
